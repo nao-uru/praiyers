@@ -1,7 +1,5 @@
 @media screen and (min-width: 900px) {
   .information .title-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .information .title-flex .title {
@@ -14,8 +12,7 @@
   .information .title-flex .contents .sub-title {
     width: 20%;
     margin: 0 auto 30px 0;
-    -webkit-transform: translateX(25%);
-            transform: translateX(25%);
+    transform: translateX(25%);
   }
   .information .title-flex .contents .sub-title h5 {
     width: 100%;
@@ -41,12 +38,11 @@
   .information .maps {
     width: 90%;
     margin: 0 auto;
-    display: -ms-grid;
     display: grid;
-    grid-template: '. .' '. .';
+    grid-template: ". ." ". .";
   }
   .information .maps .map {
-        grid-template-areas: '.';
+    grid-template-areas: ".";
   }
   .information .contents .sub-title {
     width: 80%;
@@ -60,5 +56,4 @@
   .policy {
     width: 70%;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */
