@@ -1,7 +1,5 @@
 @media screen and (min-width: 900px) {
   main .about {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   main .about .contents .content {
@@ -62,5 +60,4 @@
   main .president .contents .content .person img {
     width: 25%;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */

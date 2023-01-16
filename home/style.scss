@@ -77,6 +77,10 @@ main {
     }
   }
 
+  .line-qr {
+    @include flex_center();
+  }
+
 
   .topics {
 
