@@ -1,0 +1,18 @@
+header .h-top .h-list li {
+  border-left: 1px solid black;
+}
+header .h-top .h-list li a {
+  color: black;
+}
+header .h-top .h-list li:hover {
+  border-left: 2px solid black;
+}
+header .h-top .hide .fas {
+  color: black;
+}
+
+.contact {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

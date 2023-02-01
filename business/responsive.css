@@ -8,8 +8,6 @@
     font-size: 1.3em;
   }
   main .business .title-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   main .business .title-flex .title {
@@ -34,19 +32,10 @@
   }
   main .business .c-contents {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   main .business .c-contents #shikaku, main .business .c-contents #after {
     font-size: 1.3em;
@@ -61,20 +50,14 @@
   main .business .sections {
     width: 90%;
     margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   main .business .sections .qualification {
     display: block;
   }
   main .business .sections .qualification .q-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   main .business .sections .qualification .q-flex .left .content .q-title {
     margin: 0 auto 10px auto;
@@ -98,8 +81,6 @@
     margin: 0 auto;
   }
   main .business .section .after {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   main .business .section .after .right .a-title {
@@ -107,10 +88,7 @@
   }
   main .business .section .after .left {
     width: 40%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   main .business .section .after .left .img1 {
     width: 70%;
@@ -142,7 +120,7 @@
     width: 80%;
   }
   main .products .lineup {
-    grid-template: '. . .' '. . .';
+    grid-template: ". . ." ". . .";
   }
   main .products .lineup .product p {
     font-size: 0.8em;
@@ -158,12 +136,8 @@
     padding: 5%;
   }
   main .suggestions .section .s-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    align-items: flex-end;
   }
   main .suggestions .section .s-title img {
     width: 5%;
@@ -174,12 +148,8 @@
     font-size: 1.3em;
   }
   main .suggestions .section .suggestion {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   main .suggestions .section .suggestion .contents {
     width: 100%;
@@ -222,19 +192,12 @@
   }
   main .suggestions .section .left .imgs2 {
     margin: 30px auto 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
   }
   main .suggestions .section .left .imgs2 .img {
     width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   main .suggestions .section .left .imgs2 .img .img-none {
     display: block;
@@ -253,15 +216,9 @@
     font-size: 1.1em;
   }
   main .suggestions .section .right img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     margin: 0 auto;
   }
@@ -300,15 +257,9 @@
     font-size: 1.1em;
   }
   main .promotion .t-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   main .promotion .t-flex .t-contents {
     width: 60%;
@@ -331,13 +282,8 @@
     text-align: right;
   }
   main .promotion .otegaru-net {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    align-items: center;
   }
   main .promotion .otegaru-net img {
     width: 30%;
@@ -356,5 +302,4 @@
   main .promotion .otegaru-net .ditail .d-title p {
     font-size: 1.1em;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */
