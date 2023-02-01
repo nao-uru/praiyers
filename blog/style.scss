@@ -1,0 +1,48 @@
+@mixin flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  $c-white:white;
+  $c-black:black;
+  $c-navy:rgb(50, 111, 182);
+  
+  
+  $fontL:2em;
+  $fontM:1.1em;
+  $fontS:0.8em;
+  $fontSS:0.5em;
+
+
+header {
+    .h-top {
+      .h-list {
+        li {
+          border-left: 1px solid $c-black;
+  
+          a {
+            color: $c-black;
+          }
+  
+          &:hover {
+            border-left: 2px solid $c-black;
+            }
+        }
+      }
+  
+  
+      .hide {
+        .fas {
+          color: $c-black;
+        }
+      }
+    }
+  }
+
+  .contact {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+
+  }
