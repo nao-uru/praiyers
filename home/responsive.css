@@ -19,6 +19,13 @@
   main .consepts img {
     width: 30%;
   }
+  main .line .line-qr {
+    width: 280px;
+  }
+  main .line .line-text {
+    font-size: 1.8em;
+    margin: 0 0 0 16px;
+  }
   main .topics, main .news {
     margin: 100px 0 0 0;
     display: flex;
