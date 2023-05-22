@@ -50,6 +50,17 @@ $fontS:1.1em;
       }
     }
 
+    .line {
+      .line-qr {
+        width: 280px;
+      }
+
+      .line-text {
+        font-size: $fontL;
+        margin: 0 0 0 16px;
+      }
+    }
+
     // .title {
     //   width: 40%;
     //   padding: 50px;

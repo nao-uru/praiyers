@@ -76,10 +76,23 @@ main {
       padding: 0 2% 0 0;
     }
   }
-
-  .line-qr {
+  
+  .line {
     @include flex_center();
+    margin: 16px 0;
+
+    .line-qr {
+      width: 160px;
+    }
+
+    .line-text {
+      margin-left: 8px;
+      font-weight: bold;
+      font-size: $fontM;
+      color: $c-navy;
+    }
   }
+
 
 
   .topics {
